@@ -1,0 +1,10 @@
+name: aipg-community
+kind: model-provider
+version: 1.0.0
+description: AI Power Grid — open models through an OpenAI-compatible API (community plugin, unofficial)
+author: speteai
+license: MIT
+homepage: https://github.com/speteai/hermes-aipg-provider
+requires_hermes: ">=0.21.4"
+requires_env:
+  - AIPG_API_KEY

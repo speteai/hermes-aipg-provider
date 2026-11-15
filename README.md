@@ -10,6 +10,7 @@ Community-written and unofficial. The author is a user of the grid, not part of 
 
 ```bash
 hermes plugins install speteai/hermes-aipg-provider
+hermes plugins enable aipg-community
 ```
 
 Or by hand: put `__init__.py` and `plugin.yaml` into `$HERMES_HOME/plugins/model-providers/aipg/`.
@@ -42,6 +43,8 @@ It is a plain provider profile: no tools, no hooks, no middleware.
 On 2026-11-15, Hermes Agent v0.23.1 on Linux x64, against the live grid:
 
 - `hermes plugins validate .` passes.
+- `hermes plugins install speteai/hermes-aipg-provider` plus `enable`, then a tool-using prompt through the
+  installed plugin, with the key in `.env` and with the key as an environment variable.
 - With `provider: "aipg"` and `qwen38-flash-next-nvfp4`, the agent wrote a Python script, ran it and
   wrote the result to a file (27 s, 4 model calls, about 52,000 tokens).
 

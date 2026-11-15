@@ -5,6 +5,6 @@ description: AI Power Grid — open models through an OpenAI-compatible API (com
 author: speteai
 license: MIT
 homepage: https://github.com/speteai/hermes-aipg-provider
-requires_hermes: ">=0.21.4"
+requires_hermes: ">=0.23.1"
 requires_env:
   - AIPG_API_KEY

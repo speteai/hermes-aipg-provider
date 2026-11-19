@@ -87,6 +87,8 @@ Video plugin, on 2026-11-19, Hermes Agent at commit dfa38d1 (Python 3.14, Linux 
 live grid with `LTX-2.5 Distilled BF16`:
 
 - `hermes plugins validate video` passes.
+- `hermes plugins install speteai/hermes-aipg-provider#video` plus `enable` in a fresh Hermes home; the
+  tool then resolves the `aipg` backend.
 - Through the handler of the `video_generate` tool, with the plugin enabled and
   `video_gen.provider: aipg`: a 2-second clip from text and one from a local picture, both saved
   as MP4; an empty prompt and a web link as start picture are refused without a request.

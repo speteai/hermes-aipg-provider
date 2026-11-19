@@ -1,0 +1,9 @@
+name: aipg-video
+kind: backend
+version: 1.0.0
+description: "AI Power Grid video generation: clips with sound from text or a start picture, on open models (community plugin, unofficial)"
+author: speteai
+license: MIT
+homepage: https://github.com/speteai/hermes-aipg-provider
+requires_env:
+  - AIPG_API_KEY
